@@ -7,6 +7,7 @@ using CatAggregatorApp.Model;
 using CatAggregatorApp.Processor;
 using CatAggregatorApp.Service;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace CatAggregatorApp.Controllers
 {
@@ -14,9 +15,12 @@ namespace CatAggregatorApp.Controllers
     public class CatController : ControllerBase
     {
         private readonly IPetApiService _petApiService;
-        public CatController(IPetApiService petApiService)
+        private readonly ILogger<CatController> _logger;
+
+        public CatController(IPetApiService petApiService, ILogger<CatController> logger)
         {
             _petApiService = petApiService;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -24,8 +28,12 @@ namespace CatAggregatorApp.Controllers
         public async Task<ContentResult> GetCatNamesByOwnerGender()
         {
             string content = string.Empty;
+            _logger.LogInformation("Fetching data from a remote service.", null);
+
             List<PetOwner> owners = await _petApiService.LoadPetOwners();
-            content = (owners != null) ?  ProcessResults(owners) :  "Looks like remote service is unavailable. :(";
+            _logger.LogInformation("Response returned from remote service.", null);
+
+            content = ProcessResults(owners);
             
             return new ContentResult
             {

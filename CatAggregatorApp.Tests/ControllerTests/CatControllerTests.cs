@@ -1,8 +1,10 @@
 ﻿using CatAggregatorApp.Controllers;
 using CatAggregatorApp.Model;
 using CatAggregatorApp.Service;
+using Microsoft.Extensions.Logging;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -25,7 +27,9 @@ namespace CatAggregatorApp.Tests
                 }
             }));
 
-            var catController = new CatController(petApiServiceMock.Object);
+            var logCatControllerMock = new Mock<ILogger<CatController>>();
+
+            var catController = new CatController(petApiServiceMock.Object, logCatControllerMock.Object);
             var content = catController.GetCatNamesByOwnerGender();
 
             var expected = "<html><body><h5>female</h5><ul><li>Ket</li></ul></body></html>";
@@ -34,17 +38,20 @@ namespace CatAggregatorApp.Tests
         }
 
         [TestMethod]
-        public void ShouldProduceValidContentResultWhenServiceUnAvailable()
+        public void ShouldThrowExceptionWhenServiceUnAvailable()
         {
+            // it will be taken care by global exception handling
             var petApiServiceMock = new Mock<IPetApiService>();
             petApiServiceMock.Setup(s => s.LoadPetOwners()).Returns(
                 Task.FromResult<List<PetOwner>>(null));
 
-            var catController = new CatController(petApiServiceMock.Object);
+            var logCatControllerMock = new Mock<ILogger<CatController>>();
+
+            var catController = new CatController(petApiServiceMock.Object, logCatControllerMock.Object);
+
             var content = catController.GetCatNamesByOwnerGender();
 
-            var expected = "Looks like remote service is unavailable. :(";
-            Assert.AreEqual(expected, content.Result.Content.ToString());
+            Assert.AreEqual("Faulted", content.Status.ToString()); 
         }
     }
 }

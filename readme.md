@@ -17,5 +17,5 @@ Manipulates into a different view model and presents as contentresult
 **Simple HTML ContentResult**
 
 ### CatAggregatorApp.Tests
--
+
 Contains unit test cases for the project.
