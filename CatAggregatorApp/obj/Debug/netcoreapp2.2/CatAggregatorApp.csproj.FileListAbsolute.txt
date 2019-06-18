@@ -1,0 +1,14 @@
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp\bin\Debug\netcoreapp2.2\CatAggregatorApp.deps.json
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp\bin\Debug\netcoreapp2.2\CatAggregatorApp.runtimeconfig.json
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp\bin\Debug\netcoreapp2.2\CatAggregatorApp.runtimeconfig.dev.json
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp\bin\Debug\netcoreapp2.2\CatAggregatorApp.dll
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp\obj\Debug\netcoreapp2.2\CatAggregatorApp.csprojAssemblyReference.cache
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp\obj\Debug\netcoreapp2.2\CatAggregatorApp.csproj.CoreCompileInputs.cache
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp\obj\Debug\netcoreapp2.2\CatAggregatorApp.RazorAssemblyInfo.cache
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp\obj\Debug\netcoreapp2.2\CatAggregatorApp.RazorAssemblyInfo.cs
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp\obj\Debug\netcoreapp2.2\CatAggregatorApp.AssemblyInfoInputs.cache
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp\obj\Debug\netcoreapp2.2\CatAggregatorApp.AssemblyInfo.cs
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp\obj\Debug\netcoreapp2.2\CatAggregatorApp.RazorTargetAssemblyInfo.cache
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp\bin\Debug\netcoreapp2.2\CatAggregatorApp.pdb
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp\obj\Debug\netcoreapp2.2\CatAggregatorApp.dll
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp\obj\Debug\netcoreapp2.2\CatAggregatorApp.pdb

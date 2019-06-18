@@ -1,0 +1,17 @@
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp.Tests\bin\Debug\netcoreapp2.2\CatAggregatorApp.Tests.deps.json
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp.Tests\bin\Debug\netcoreapp2.2\CatAggregatorApp.Tests.runtimeconfig.json
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp.Tests\bin\Debug\netcoreapp2.2\CatAggregatorApp.Tests.runtimeconfig.dev.json
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp.Tests\bin\Debug\netcoreapp2.2\CatAggregatorApp.Tests.dll
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp.Tests\bin\Debug\netcoreapp2.2\CatAggregatorApp.Tests.pdb
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp.Tests\obj\Debug\netcoreapp2.2\CatAggregatorApp.Tests.csprojAssemblyReference.cache
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp.Tests\obj\Debug\netcoreapp2.2\CatAggregatorApp.Tests.csproj.CoreCompileInputs.cache
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp.Tests\obj\Debug\netcoreapp2.2\CatAggregatorApp.Tests.AssemblyInfoInputs.cache
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp.Tests\obj\Debug\netcoreapp2.2\CatAggregatorApp.Tests.AssemblyInfo.cs
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp.Tests\obj\Debug\netcoreapp2.2\CatAggregatorApp.Tests.dll
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp.Tests\obj\Debug\netcoreapp2.2\CatAggregatorApp.Tests.pdb
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp.Tests\bin\Debug\netcoreapp2.2\CatAggregatorApp.dll
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp.Tests\bin\Debug\netcoreapp2.2\CatAggregatorApp.pdb
+C:\Users\erran\source\repos\CatAggregatorApp\CatAggregatorApp.Tests\obj\Debug\netcoreapp2.2\CatAggregatorApp.Tests.csproj.CopyComplete
